@@ -1,7 +1,7 @@
 // This callback will run before a TCP connection is made.
 
 chrome.webRequest.onBeforeRequest.addListener(
-  details => {cancel: true},
+  function(details) { return {cancel: true} },
   { urls: [
     "*://*.doubleclick.net/*",
     "*://*.googleadservices.com/*",
