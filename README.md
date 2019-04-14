@@ -1,4 +1,4 @@
-# adblock
+# AdBlock
 
 A chrome extension that prevents the browser from sending a request to receive advertisement from various urls, in other others it "blocks" ads.  
 
